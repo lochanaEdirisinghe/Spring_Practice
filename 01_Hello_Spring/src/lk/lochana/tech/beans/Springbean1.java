@@ -3,10 +3,10 @@ package lk.lochana.tech.beans;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Springbean1 implements DisposableBean {
     public Springbean1(){
-        System.out.println("SpringBean1 is instantiated");
+        System.out.println("SpringBean1 instantiated");
     }
 
     @Override
