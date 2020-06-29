@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5340d5-e56e-45b9-894c-2906cd0da26d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_DI/02_Spring_DI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/GoodGirl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean1.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean2.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/beans/Springbean1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/beans/Springbean1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/beans/Springbean2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/beans/Springbean2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/main/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/main/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/main/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/01_Hello_Spring/lk/lochana/tech/main/AppInitializer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,22 +28,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1012" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="1332" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1012" />
+          <entry key="JAVA" value="1332" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -55,10 +53,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppInitializer.java">
+        <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,30 +77,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean5.java">
+        <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Boy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="85">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#74#75#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppConfig.java">
+        <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/GoodGirl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Girl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +122,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -128,6 +149,11 @@
         <option value="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean4.java" />
         <option value="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppInitializer.java" />
         <option value="$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/beans/Springbean5.java" />
+        <option value="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppConfig.java" />
+        <option value="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/GoodGirl.java" />
+        <option value="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Girl.java" />
+        <option value="$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Boy.java" />
       </list>
     </option>
   </component>
@@ -137,7 +163,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="675" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -157,24 +183,24 @@
           <expand>
             <path>
               <item name="Spring_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_Hello_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Spring_DI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_Hello_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Spring_DI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_Hello_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Spring_DI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_Hello_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Spring_DI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -187,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593368599713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593419041955" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/spring-websocket-5.2.7.RELEASE.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,13 +234,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppInitializer (1)">
+  <component name="RunManager" selected="Application.AppInitializer (2)">
     <configuration name="AppInitializer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.lochana.tech.main.AppInitializer" />
       <module name="01_Hello_Spring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.lochana.tech.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.lochana.spring.main.AppInitializer" />
+      <module name="02_Spring_DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.lochana.spring.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +274,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Boy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.lochana.spring.beans.Boy" />
+      <module name="02_Spring_DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.lochana.spring.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppInitializer" />
       <item itemvalue="Application.AppInitializer (1)" />
+      <item itemvalue="Application.Boy" />
+      <item itemvalue="Application.AppInitializer (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppInitializer (2)" />
+        <item itemvalue="Application.Boy" />
         <item itemvalue="Application.AppInitializer (1)" />
         <item itemvalue="Application.AppInitializer" />
       </list>
@@ -256,15 +312,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593338029500</updated>
-      <workItem from="1593338031740" duration="9987000" />
+      <workItem from="1593338031740" duration="11659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9987000" />
+    <option name="totallyTimeSpent" value="11659000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -274,14 +330,14 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30932897" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36824876" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -350,22 +406,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -382,6 +426,72 @@
             <element signature="e#495#496#0" expanded="true" />
             <element signature="e#734#735#0" expanded="true" />
             <element signature="e#770#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Hello_Spring/src/lk/lochana/tech/main/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/GoodGirl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/main/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Spring_DI/src/lk/lochana/spring/beans/Boy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -438,7 +548,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>01_Hello_Spring</last-edited>
+          <last-edited>02_Spring_DI</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
