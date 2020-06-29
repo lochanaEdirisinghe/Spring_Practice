@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/01_Hello_Spring/01_Hello_Spring.iml" filepath="$PROJECT_DIR$/01_Hello_Spring/01_Hello_Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_Spring_DI/02_Spring_DI.iml" filepath="$PROJECT_DIR$/02_Spring_DI/02_Spring_DI.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_LightMode_vs_FullMode/03_LightMode_vs_FullMode.iml" filepath="$PROJECT_DIR$/03_LightMode_vs_FullMode/03_LightMode_vs_FullMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_Configurations/04_Configurations.iml" filepath="$PROJECT_DIR$/04_Configurations/04_Configurations.iml" />
     </modules>
   </component>
 </project>
