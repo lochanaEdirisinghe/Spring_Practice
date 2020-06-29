@@ -11,7 +11,7 @@ public class BeanOne {
     //Light Mode
     @Bean
     public BeanTwo btwo(){
-        //Interbean Dependancy
+        //Interbean Dependancy is not satisfied
         BeanThree bthree1 = bthree();
         BeanThree bthree2 = bthree();
         System.out.println(bthree1);

@@ -14,7 +14,7 @@ public class AppConfig {
   /*  //Full Mode
     @Bean
     public BeanTwo btwo(){
-        //Interbean Dependancy
+        //Interbean Dependancy is satisfied
         BeanThree bthree1 = bthree();
         BeanThree bthree2 = bthree();
         System.out.println(bthree1);
