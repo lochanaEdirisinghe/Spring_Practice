@@ -4,8 +4,9 @@ import lk.lochana.tech.beans.Springbean3;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-@Configurable
+@Configuration
 @ComponentScan(basePackages = "lk.lochana.tech.beans")
 public class AppConfig {
 
