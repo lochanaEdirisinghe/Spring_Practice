@@ -1,17 +1,18 @@
 package lk.lochana.spring.beans;
 
-
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-public class Girl implements GoodGirl{
-    public Girl(){
-        System.out.println("Girl Instantiated");
+public class Girl2 implements GoodGirl {
+    public Girl2(){
+        System.out.println("Girl2 Instantiated");
     }
+
     @Override
     public void kiss() {
-        System.out.println("DDDDDDDDD");
+        System.out.println("DDDDDDDDddddddd");
+        System.out.println("DDDDDDDDddddddd");
     }
 }
