@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03_LightMode_vs_FullMode/03_LightMode_vs_FullMode.iml" filepath="$PROJECT_DIR$/03_LightMode_vs_FullMode/03_LightMode_vs_FullMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_Configurations/04_Configurations.iml" filepath="$PROJECT_DIR$/04_Configurations/04_Configurations.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_Runtime_Value_Injection/05_Runtime_Value_Injection.iml" filepath="$PROJECT_DIR$/05_Runtime_Value_Injection/05_Runtime_Value_Injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_Spring_Web_MVC/06_Spring_Web_MVC.iml" filepath="$PROJECT_DIR$/06_Spring_Web_MVC/06_Spring_Web_MVC.iml" />
     </modules>
   </component>
 </project>
