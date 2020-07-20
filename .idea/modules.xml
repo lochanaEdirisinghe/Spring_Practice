@@ -8,7 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/04_Configurations/04_Configurations.iml" filepath="$PROJECT_DIR$/04_Configurations/04_Configurations.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_Runtime_Value_Injection/05_Runtime_Value_Injection.iml" filepath="$PROJECT_DIR$/05_Runtime_Value_Injection/05_Runtime_Value_Injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_Spring_Web_MVC/06_Spring_Web_MVC.iml" filepath="$PROJECT_DIR$/06_Spring_Web_MVC/06_Spring_Web_MVC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/_07_Spring_With_Maven/_07_Spring_With_Maven.iml" filepath="$PROJECT_DIR$/_07_Spring_With_Maven/_07_Spring_With_Maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_Spring_With_Maven/07_Spring_With_Maven.iml" filepath="$PROJECT_DIR$/07_Spring_With_Maven/07_Spring_With_Maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_Spring_Data_JPA/_08_Spring_Data_JPA.iml" filepath="$PROJECT_DIR$/_08_Spring_Data_JPA/_08_Spring_Data_JPA.iml" />
     </modules>
   </component>
 </project>
