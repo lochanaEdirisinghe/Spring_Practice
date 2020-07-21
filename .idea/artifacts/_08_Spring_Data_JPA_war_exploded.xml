@@ -56,7 +56,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/_08_Spring_Data_JPA/target/08_Spring_Data_JPA-1.0.0/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="08_Spring_Data_JPA/web/Web" />
+      <element id="javaee-facet-resources" facet="_08_Spring_Data_JPA/web/Web" />
     </root>
   </artifact>
 </component>

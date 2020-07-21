@@ -2,13 +2,15 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/07_Spring_With_Maven" />
+    <file type="web" url="file://$PROJECT_DIR$/_08__Spring_Data_JPA" />
     <file type="web" url="file://$PROJECT_DIR$/_08_Spring_Data_JPA" />
+    <file type="web" url="file://$PROJECT_DIR$/_09_Spring_Data_JPA" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/_07_Spring_With_Maven/pom.xml" />
-        <option value="$PROJECT_DIR$/_08_Spring_Data_JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/_09_Spring_Data_JPA/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

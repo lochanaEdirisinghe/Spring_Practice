@@ -1,18 +1,22 @@
 package lk.lochana.pos.Controller;
 
+import lk.lochana.pos.Entity.Customer;
 import lk.lochana.pos.dto.CustomerDto;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lk.lochana.pos.service.CustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
 @RequestMapping("/api/v1/controller")
 public class CustomerController {
 
+   @Autowired
+   CustomerService customerService;
+
     @GetMapping
-    public CustomerDto getCustomer(CustomerDto dto){
-        return dto;
+    public void getCustomer(@RequestBody CustomerDto dto){
+        Customer c = new Customer(dto.getId(), dto.getName(), dto.getAge());
+        customerService.saveCustomer(c);
     }
 }
